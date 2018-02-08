@@ -1,22 +1,24 @@
 <template>
   <div id="app">
     <navbar></navbar>
+    <intro></intro>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
+import Intro from './components/Intro.vue';
 
 export default {
   components: {
-    'navbar': Navbar
+    'navbar': Navbar,
+    'intro': Intro
   }
 }
 </script>
 
 <style lang="scss">
-  #app {
-    // width: 95%;
-    margin: 0 auto;
+  body {
+    margin: 0;
   }
 </style>

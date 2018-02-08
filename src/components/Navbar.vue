@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss">
   .nav-container {
-    background-color: #fff;
+    background-color: white;
   }
 
   h2 {
