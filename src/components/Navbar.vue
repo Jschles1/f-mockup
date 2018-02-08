@@ -1,10 +1,12 @@
 <template>
-  <nav>
-    <h3>FOWNDERS</h3>
-    <ul>
-      <li><a href="#signin">Sign in</a></li>
-    </ul>
-  </nav>
+  <div class="nav-container">
+    <nav>
+      <h2>FOWNDERS</h2>
+      <ul>
+        <li><a href="#signin">Sign in</a></li>
+      </ul>
+    </nav>
+  </div>
 </template>
 
 <script>
@@ -14,12 +16,19 @@ export default {
 </script>
 
 <style lang="scss">
-  h3 {
+  .nav-container {
+    background-color: #fff;
+  }
+
+  h2 {
     display: inline;
     color: black;
   }
 
   nav {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 10px;
     background-color: white;
     color: skyblue;
   }
@@ -31,6 +40,7 @@ export default {
       float: right;
       a {
         text-decoration: none;
+        color: skyblue;
       }
     }
   }
