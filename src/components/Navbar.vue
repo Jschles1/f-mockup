@@ -18,30 +18,30 @@ export default {
 <style lang="scss">
   .nav-container {
     background-color: white;
-  }
 
-  h2 {
-    display: inline;
-    color: black;
-  }
+    h2 {
+      display: inline;
+      color: black;
+    }
 
-  nav {
-    width: 95%;
-    margin: 0 auto;
-    padding: 10px 10px;
-    background-color: white;
-    color: skyblue;
-  }
+    nav {
+      width: 95%;
+      margin: 0 auto;
+      padding: 10px 10px;
+      background-color: white;
+      color: skyblue;
 
-  nav ul {
-    display: inline;
-    li {
-      list-style: none;
-      float: right;
-      line-height: 30px;
-      a {
-        text-decoration: none;
-        color: skyblue;
+      ul {
+        display: inline;
+        li {
+          list-style: none;
+          float: right;
+          line-height: 30px;
+          a {
+            text-decoration: none;
+            color: skyblue;
+          }
+        }
       }
     }
   }

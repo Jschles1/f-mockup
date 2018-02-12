@@ -21,25 +21,25 @@ export default {
   .intro-container {
     background-color: skyblue;
     padding: 30px 0;
-  }
 
-  .intro-content {
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    text-align: center;
+    .intro-content {
+      width: 80%;
+      margin: 0 auto;
+      color: white;
+      text-align: center;
+    }
+
+    .join {
+      padding: 18px 55px;
+      border-radius: 4px;
+      font-size: 100%;
+      color: white;
+      border: 0.5px solid white;
+      background: linear-gradient(orange, orangered);
+    }
   }
 
   h1 {
     margin: 0;
-  }
-
-  .join {
-    padding: 18px 55px;
-    border-radius: 4px;
-    font-size: 100%;
-    color: white;
-    border: 0.5px solid white;
-    background: linear-gradient(orange, orangered);
   }
 </style>
