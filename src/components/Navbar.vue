@@ -38,6 +38,7 @@ export default {
     li {
       list-style: none;
       float: right;
+      line-height: 30px;
       a {
         text-decoration: none;
         color: skyblue;
