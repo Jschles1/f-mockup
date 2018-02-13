@@ -28,15 +28,15 @@ export default {
       color: white;
       text-align: center;
     }
+  }
 
-    .join {
-      padding: 18px 55px;
-      border-radius: 4px;
-      font-size: 100%;
-      color: white;
-      border: 0.5px solid white;
-      background: linear-gradient(orange, orangered);
-    }
+  .join {
+    padding: 18px 55px;
+    border-radius: 4px;
+    font-size: 100%;
+    color: white;
+    border: 0.5px solid white;
+    background: linear-gradient(orange, orangered);
   }
 
   h1 {
