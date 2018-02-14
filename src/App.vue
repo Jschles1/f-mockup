@@ -5,6 +5,7 @@
     <mission></mission>
     <experts></experts>
     <community></community>
+    <masterclasses></masterclasses>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Intro from './components/Intro.vue';
 import Mission from './components/Mission.vue';
 import Experts from './components/Experts.vue';
 import Community from './components/Community.vue';
+import Masterclasses from './components/Masterclasses.vue';
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     'intro': Intro,
     'mission': Mission,
     'experts': Experts,
-    'community': Community
+    'community': Community,
+    'masterclasses': Masterclasses
   }
 }
 </script>
