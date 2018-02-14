@@ -37,6 +37,11 @@ export default {
     color: white;
     border: 0.5px solid white;
     background: linear-gradient(orange, orangered);
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 1px 1px rgb(59, 59, 59);
+    }
   }
 
   h1 {

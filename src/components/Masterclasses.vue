@@ -84,7 +84,7 @@ export default {
 
 <style lang="scss">
   .master-container {
-    background: linear-gradient(orange, orangered);;
+    background: linear-gradient(orange, orangered);
     padding: 30px 0;
 
     .master-content {
