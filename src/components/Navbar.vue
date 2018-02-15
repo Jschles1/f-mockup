@@ -1,7 +1,7 @@
 <template>
   <div class="nav-container">
     <nav>
-      <h2>FOWNDERS</h2>
+      <h2>F<span>OWN</span>DERS</h2>
       <ul>
         <li><a href="#signin">Sign in</a></li>
       </ul>
@@ -22,6 +22,10 @@ export default {
     h2 {
       display: inline;
       color: black;
+    }
+
+    span {
+      color: skyblue;
     }
 
     nav {

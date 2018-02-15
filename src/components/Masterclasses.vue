@@ -72,6 +72,32 @@
         </div>
       </div>
 
+      <div class="master-row">
+        <div class="payment-header hidden">
+
+        </div>
+        <div class="payment-header">
+          <p>Most Popular</p>
+        </div>
+      </div>
+
+      <div class="master-row">
+        <div class="payment-box">
+          <p>Monthly</p>
+          <p>$27/mo</p>
+          <button class="access">GET INSTANT ACCESS</button>
+          <p>Reoccuring Monthly Payment</p>
+        </div>
+        <div class="payment-box">
+          <p>Annual</p>
+          <p>$247</p>
+          <button class="access">GET INSTANT ACCESS</button>
+          <p>One Annual Payment</p>
+        </div>
+      </div>
+
+      <p>For your security, all orders are processed on a secured server.</p>
+
     </div>
   </div>
 </template>
@@ -104,6 +130,51 @@ export default {
           border: 1px solid white;
           margin: 20px 10px;
           text-align: left;
+        }
+
+        .payment-header {
+          overflow: hidden;
+          display: inline-block;
+          margin: 30px 11px -5px;
+          height: 75px;
+          width: 400px;
+          border: 1px solid skyblue;
+          color: white;
+          background: linear-gradient(rgb(30, 186, 238), darken(rgb(30, 186, 238), 15%));
+
+          p {
+            padding-top: 12px;
+          }
+        }
+
+        .payment-header.hidden {
+          background: none;
+          border: 0;
+        }
+
+        .payment-box {
+          overflow: hidden;
+          display: inline-block;
+          height: 250px;
+          width: 400px;
+          border: 1px solid skyblue;
+          margin: 0 10px 20px;
+          text-align: center;
+
+          .access {
+            margin: 30px 0;
+            padding: 6px 45px;
+            border-radius: 4px;
+            font-size: 100%;
+            color: white;
+            border: 0.5px solid white;
+            background: linear-gradient(rgb(30, 186, 238), darken(rgb(30, 186, 238), 15%));
+
+            &:hover {
+              cursor: pointer;
+              box-shadow: 0 1px 1px rgb(59, 59, 59);
+            }
+          }
         }
       }
     }
