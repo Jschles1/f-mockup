@@ -66,7 +66,6 @@ export default {
           display: inline-block;
           height: 250px;
           width: 400px;
-          background-color: white;
           margin: 20px 10px;
         }
       }

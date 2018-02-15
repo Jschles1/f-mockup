@@ -127,7 +127,6 @@ export default {
           display: inline-block;
           height: 250px;
           width: 400px;
-          border: 1px solid white;
           margin: 20px 10px;
           text-align: left;
         }

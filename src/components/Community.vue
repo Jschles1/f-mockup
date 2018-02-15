@@ -87,7 +87,6 @@ export default {
           display: inline-block;
           height: 210px;
           width: 350px;
-          border: 1px solid gray; 
           margin: 20px 5px;
           text-align: left;
         }
