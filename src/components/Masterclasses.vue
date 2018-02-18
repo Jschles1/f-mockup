@@ -98,6 +98,13 @@
 
       <p>For your security, all orders are processed on a secured server.</p>
 
+      <div class="credit-cards">
+        <img src="../assets/visa.png" alt="Visa">
+        <img src="../assets/mastercard.png" alt="Master Card">
+        <img src="../assets/amex.png" alt="American Express">
+        <img src="../assets/discover.png" alt="Discover">
+      </div>
+
     </div>
   </div>
 </template>
@@ -175,6 +182,11 @@ export default {
             }
           }
         }
+      }
+
+      .credit-cards {
+        margin-bottom: 100px;
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
       }
     }
   }
