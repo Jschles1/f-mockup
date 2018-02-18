@@ -8,6 +8,7 @@
     <masterclasses></masterclasses>
     <feedback></feedback>
     <benefits></benefits>
+    <faq></faq>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Community from './components/Community.vue';
 import Masterclasses from './components/Masterclasses.vue';
 import Feedback from './components/Feedback.vue';
 import Benefits from './components/Benefits.vue';
+import Faq from './components/Faq.vue';
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     'community': Community,
     'masterclasses': Masterclasses,
     'feedback': Feedback,
-    'benefits': Benefits
+    'benefits': Benefits,
+    'faq': Faq
   }
 }
 </script>
