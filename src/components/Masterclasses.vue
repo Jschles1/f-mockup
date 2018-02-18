@@ -183,11 +183,11 @@ export default {
           }
         }
       }
+    }
 
-      .credit-cards {
-        margin-bottom: 100px;
-        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
-      }
+    .credit-cards {
+      margin-bottom: 100px;
+      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
     }
   }
 
