@@ -10,6 +10,7 @@
     <benefits></benefits>
     <faq></faq>
     <call-to-action></call-to-action>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import Feedback from './components/Feedback.vue';
 import Benefits from './components/Benefits.vue';
 import Faq from './components/Faq.vue';
 import CallToAction from './components/CallToAction.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
@@ -36,7 +38,8 @@ export default {
     'feedback': Feedback,
     'benefits': Benefits,
     'faq': Faq,
-    'call-to-action': CallToAction
+    'call-to-action': CallToAction,
+    'app-footer': Footer
   }
 }
 </script>
