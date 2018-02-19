@@ -9,6 +9,7 @@
     <feedback></feedback>
     <benefits></benefits>
     <faq></faq>
+    <call-to-action></call-to-action>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import Masterclasses from './components/Masterclasses.vue';
 import Feedback from './components/Feedback.vue';
 import Benefits from './components/Benefits.vue';
 import Faq from './components/Faq.vue';
+import CallToAction from './components/CallToAction.vue';
 
 export default {
   components: {
@@ -33,7 +35,8 @@ export default {
     'masterclasses': Masterclasses,
     'feedback': Feedback,
     'benefits': Benefits,
-    'faq': Faq
+    'faq': Faq,
+    'call-to-action': CallToAction
   }
 }
 </script>
