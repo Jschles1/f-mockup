@@ -68,6 +68,8 @@ export default {
 
 <style lang="scss">
   .comm-container {
+    background-image: url(https://cdn2.hubspot.net/hubfs/3357911/sales-page-bg/H6.png);
+    background-size: cover;
     background-color: skyblue;
     padding: 30px 0;
 

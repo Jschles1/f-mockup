@@ -61,7 +61,8 @@ export default {
 
 <style lang="scss">
   .call-container {
-    background: linear-gradient(orangered, orange);
+    background-image: url(https://fownders.s3.us-east-2.amazonaws.com/BG-11.jpg);
+    background-size: cover;
     padding: 30px 0;
 
     .call-content {

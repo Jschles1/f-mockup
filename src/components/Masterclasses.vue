@@ -117,7 +117,9 @@ export default {
 
 <style lang="scss">
   .master-container {
-    background: linear-gradient(orange, orangered);
+    background: linear-gradient(0deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,0)),url(https://fownders.s3.us-east-2.amazonaws.com/BG-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 0;
 
     .master-content {

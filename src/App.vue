@@ -45,6 +45,10 @@ export default {
 </script>
 
 <style lang="scss">
+  html {
+    background-color: black;
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
     margin: 0;

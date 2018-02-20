@@ -121,6 +121,8 @@ export default {
 
 <style lang="scss">
   .benefits-container {
+    background-image: url(https://fownders.s3.us-east-2.amazonaws.com/BG-8.jpg);
+    background-size: cover;
     background-color: #003e53;
     padding: 30px 0;
 

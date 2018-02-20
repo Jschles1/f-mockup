@@ -47,6 +47,8 @@ export default {
 
 <style lang="scss">
   .experts-container {
+    background-image: url(https://cdn2.hubspot.net/hubfs/3357911/sales-page-bg/H5.png);
+    background-size: cover;
     background-color: #003e53;
     padding: 30px 0;
 
