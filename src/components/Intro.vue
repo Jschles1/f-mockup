@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
   .intro-container {
     background-image: url(https://fownders.s3.us-east-2.amazonaws.com/BG-1.jpg);
+    background-size: cover;
     background-color: skyblue;
     padding: 30px 0;
 

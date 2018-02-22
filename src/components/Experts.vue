@@ -10,28 +10,28 @@
 
       <div class="expert-row">
         <div class="expert-box">
-
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/lewishowes.jpg" alt="Lewis Howes">
         </div>
         <div class="expert-box">
-          
-        </div>
-      </div>
-
-      <div class="expert-row">
-        <div class="expert-box">
-
-        </div>
-        <div class="expert-box">
-          
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/TomBilyeu.jpg" alt="Tom Bilyeu">
         </div>
       </div>
 
       <div class="expert-row">
         <div class="expert-box">
-
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/EricThomas.jpg" alt="Eric Thomas">
         </div>
         <div class="expert-box">
-          
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/MonicaAdams.jpg" alt="Monica Adams">
+        </div>
+      </div>
+
+      <div class="expert-row">
+        <div class="expert-box">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/mona.jpg" alt="Mona">
+        </div>
+        <div class="expert-box">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/toby.jpg" alt="Toby">
         </div>
       </div>
       <button class="join">JOIN FOWNDERS</button>
@@ -68,7 +68,12 @@ export default {
           display: inline-block;
           height: 250px;
           width: 400px;
-          margin: 20px 10px;
+          margin: 20px 20px;
+
+          img {
+            height: 100%;
+            box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.3);
+          }
         }
       }
     }
