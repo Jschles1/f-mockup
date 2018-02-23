@@ -6,8 +6,8 @@
         Join a global community of like-minded entrepreneurs, creatives, and visionaries. Be inspired to think bigger, contribute back, and receive support while you express your purpose.
       </p>
       <div class="comm-row">
-        <div class="comm-box">
-
+        <div class="comm-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/Slack%20%281%29.jpg" alt="Slack">
         </div>
         <div class="comm-box">
           <h3>SLACK COMMUNITY</h3>
@@ -24,14 +24,14 @@
             Our leadership team and mentors will answer your questions on personal and business development, tactical marketing strategies, and more within the exclusive Facebook community via a private Facebook live stream every month.
           </p>
         </div>
-        <div class="comm-box">
-          
+        <div class="comm-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/Livestream%20%281%29.jpg" alt="Facebook Livestream">
         </div>
       </div>
 
       <div class="comm-row">
-        <div class="comm-box">
-          
+        <div class="comm-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/Downloadable%20%281%29.jpg" alt="Downloadable">
         </div>
         <div class="comm-box">
           <h3>DOWNLOADABLE RESOURCES</h3>
@@ -48,14 +48,14 @@
             What you get is priority access and discounts to our best events, experiences, and gatherings. Network at our startup grinds, workshops, masterminds, and summits. And most importantly: build real personal connections with amazing people that care about providing you value.
           </p>
         </div>
-        <div class="comm-box">
-          
+        <div class="comm-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/bg-offline.jpg" alt="Offline">
         </div>
       </div>
 
       <br>
 
-      <button class="join">JOIN FOWNDERS</button>
+      <button class="join community-join">JOIN FOWNDERS</button>
     </div>
   </div>
 </template>
@@ -89,9 +89,26 @@ export default {
           display: inline-block;
           height: 210px;
           width: 350px;
-          margin: 20px 5px;
+          margin: 20px 10px;
           text-align: left;
         }
+
+        .comm-box-img {
+          display: inline-block;
+          height: 210px;
+          width: 350px;
+          margin: 20px 10px;
+          text-align: left;
+
+          img {
+            height: 100%;
+            box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.3);
+          }
+        }
+      }
+
+      .community-join {
+        margin: 32px 0;
       }
     }
   }
