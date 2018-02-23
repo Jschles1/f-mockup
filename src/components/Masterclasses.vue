@@ -7,8 +7,8 @@
       </p>
 
       <div class="master-row">
-        <div class="master-box">
-
+        <div class="master-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/SocialCurrency.jpg" alt="Social Currency">
         </div>
         <div class="master-box">
           <p>
@@ -18,8 +18,8 @@
       </div>
 
       <div class="master-row">
-        <div class="master-box">
-
+        <div class="master-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/DavidBayer.jpg" alt="David Bayer">
         </div>
         <div class="master-box">
           <p>
@@ -29,8 +29,8 @@
       </div>
 
       <div class="master-row">
-        <div class="master-box">
-
+        <div class="master-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/adamBraun.jpg" alt="Adam Braun">
         </div>
         <div class="master-box">
           <p>
@@ -40,8 +40,8 @@
       </div>
 
       <div class="master-row">
-        <div class="master-box">
-
+        <div class="master-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/FashionBlueprint.jpg" alt="Fashion Blurprint">
         </div>
         <div class="master-box">
           <p>
@@ -51,8 +51,8 @@
       </div>
 
       <div class="master-row">
-        <div class="master-box">
-
+        <div class="master-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/RichieHecker.jpg" alt="Richie Hecker">
         </div>
         <div class="master-box">
           <p>
@@ -62,8 +62,8 @@
       </div>
 
       <div class="master-row">
-        <div class="master-box">
-
+        <div class="master-box-img">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/shopify.jpg" alt="Shopify">
         </div>
         <div class="master-box">
           <p>
@@ -136,8 +136,21 @@ export default {
           display: inline-block;
           height: 250px;
           width: 400px;
-          margin: 20px 10px;
+          margin: 20px 20px;
           text-align: left;
+        }
+
+        .master-box-img {
+          display: inline-block;
+          height: 250px;
+          width: 400px;
+          margin: 20px 20px;
+          text-align: left;
+
+          img {
+            height: 100%;
+            box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.3);
+          }
         }
 
         .payment-header {
