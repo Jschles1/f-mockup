@@ -36,13 +36,17 @@
         </div>
 
         <div class="benefits-box">
-          <p>Image</p>
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/elkins.jpg" alt="elkins">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/dipiazza.jpg" alt="dipiazza">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/dcruz.jpg" alt="dcruz">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/braun.jpg" alt="braun">
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/dangelo.jpg" alt="dangelo">
         </div>
       </div>
 
       <div class="benefits-row">
         <div class="benefits-box">
-          <p>Image</p>
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/Community.jpg" alt="Community">
         </div>
 
         <div class="benefits-box">
@@ -71,7 +75,7 @@
         </div>
 
         <div class="benefits-box">
-          <p>Image</p>
+          <img src="https://fownders.s3.us-east-2.amazonaws.com/experience%20%281%29.jpg" alt="Experience">
         </div>
       </div>
 
@@ -139,6 +143,7 @@ export default {
       .benefits-row {
         margin-top: 80px;
         height: 100%;
+        font-size: 19px;
 
         .benefits-box {
           display: inline-block;
@@ -155,6 +160,13 @@ export default {
 
           h3 {
             color: skyblue;
+          }
+
+          img {
+            width: 100%;
+            margin: 10px 0;
+            border: 1px solid goldenrod;
+            box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.3);
           }
         }
       }
