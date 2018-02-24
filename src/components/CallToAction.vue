@@ -96,6 +96,7 @@ export default {
       }
 
       .payment-box {
+        background-color: rgba(0,0,0,.1);
         overflow: hidden;
         display: inline-block;
         height: 250px;

@@ -193,6 +193,7 @@ export default {
         }
 
         .payment-box {
+          background-color: hsla(0,0%,98%,.1);
           overflow: hidden;
           display: inline-block;
           height: 250px;
